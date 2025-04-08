@@ -1,0 +1,10 @@
+   19  c
+   20  cc
+   21  c
+   22  c
+   23  c
+   24  c
+   25  cc
+   26  q
+   27  history
+   28  show commands

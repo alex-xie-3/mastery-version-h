@@ -1,0 +1,500 @@
+   22  runner -r traces/short1.rep
+   23  make heap_runner
+   24  ./heap_runner 
+   25  make clean
+   26  make heap_runner
+   27  ./heap_runner
+   28  make clean
+   29  make all
+   30  make heap_runner
+   31  ./heap_runner
+   32  runner -r traces/short1.rep
+   33  make clean
+   34  make all
+   35  runner -r traces/short1.rep
+   36  make clean
+   37  make all
+   38  runner -r traces/short1.rep
+   39  make clean
+   40  make all
+   41  runner -r traces/short1.rep
+   42  make clean
+   43  make all
+   44  runner -r traces/short1.rep
+   45  make clean
+   46  make all
+   47  runner -r traces/short1.rep
+   48  make clean
+   49  make all
+   50  make all
+   51  runner -r traces/short1.rep
+   52  make clean
+   53  make all
+   54  runner -r traces/short1.rep
+   55  gdb runner
+   56  make clean
+   57  make debug
+   58  gdb ./runner
+   59  make clean
+   60  make debug
+   61  gdb runner
+   62  make clean
+   63  make all
+   64  runner -r traces/short1.rep
+   65  make clean
+   66  make debug
+   67  gdb runner
+   68  make clean
+   69  make all
+   70  runner -r traces/short1.rep
+   71  make clean
+   72  make all
+   73  runner -r traces/short1.rep
+   74  make clean
+   75  make debug
+   76  gdb runner
+   77  make clean
+   78  make all
+   79  runner -r traces/short1.rep
+   80  make debug
+   81  gdb runner
+   82  runner -r traces/short1.rep
+   83  make clean
+   84  make all
+   85  runner -r traces/short1.rep
+   86  make clean
+   87  make debug
+   88  gdb runner
+   89  make clean
+   90  make debug
+   91  gdb runner
+   92  make clena
+   93  make clean
+   94  make all
+   95  make debug
+   96  gdb runner
+   97  make clean
+   98  make debug
+   99  gdb runner
+  100  make clean
+  101  make debug
+  102  gdb runner
+  103  make clean
+  104  make all
+  105  runner -r traces/short1.rep
+  106  make clean
+  107  make debug
+  108  gdb runner
+  109  make clean
+  110  make all
+  111  runner -r traces/short1.rep
+  112  make clean
+  113  make debug
+  114  gdb runner
+  115  make clean
+  116  make all
+  117  make clean
+  118  make all
+  119  runner -r traces/short1.rep
+  120  runner -r traces/amptjp-bal.rep
+  121  runner -r traces/amptjp.rep
+  122  make debug
+  123  gdb runner
+  124  make clean
+  125  make all
+  126  runner -r traces/amptjp.rep
+  127  make debug
+  128  gdb runner
+  129  runner -r traces/coalescing.rep
+  130  make debug
+  131  gdb runner
+  132  make clean
+  133  make debug
+  134  make clean
+  135  make debug
+  136  gdb runner
+  137  runner -r traces/coalescing.rep
+  138  make clean
+  139  make all
+  140  runner -r traces/short1.rep
+  141  gdb runner
+  142  make clean
+  143  make all
+  144  runner -r traces/short1.rep
+  145  make clean
+  146  make debug
+  147  gdb runner
+  148  make clean
+  149  make all
+  150  runner -r traces/short1.rep
+  151  make clean
+  152  make debug
+  153  gdb runner
+  154  make clean
+  155  make all
+  156  runner -r traces/short1.rep
+  157  make clean
+  158  make all
+  159  runner -r traces/short1.rep
+  160  runner -r traces/coalescing.rep
+  161  runner -r traces/expr.rep
+  162  runner -r traces/short1.rep
+  163  make debug
+  164  gdb runner
+  165  make celan
+  166  make clean
+  167  make debug
+  168  gdb runner
+  169  git add .
+  170  git commit -m "."
+  171  git push
+  172  make clean
+  173  make all
+  174  runner -r traces/short1.rep
+  175  make debug
+  176  gdb runner
+  177  make clean
+  178  make all
+  179  git add .
+  180  git commit -m "i hate my life. i genuinely don't know how i got into cs. how in the world am i gonna survive this course. i've spent hours. HOURS. mulling over my code to no avail. and a chain of seg faults, infinte loops, and direct failures gleefully awaits me. i've even sought help from two people who were directly reading my code and debugging. i don't know where i would be without them. whatever man, i give up. it's been a long night and week. can't wait for the exam next week. 02/22/2025 1:39"
+  181  runner -r traces/short1.rep
+  182  runner -r traces/binary2.rep
+  183  runner -r traces/cccp.rep
+  184  runner -r traces/coalescing.rep
+  185  runner -r traces/coalescing-bal.rep
+  186  runner -r traces/cp-decl.rep
+  187  make clean
+  188  make all
+  189  runner -r traces/cp-decl.rep
+  190  runner -r traces/short1.rep
+  191  runner -r traces/coalescing.rep
+  192  runner -r traces/cp-decl.rep
+  193  make clean
+  194  make all
+  195  runner -r traces/cp-decl.rep
+  196  runner -r traces/coalescing.rep
+  197  make clean
+  198  make all
+  199  runner -r traces/coalescing.rep
+  200  runner -r traces/short1.rep
+  201  runner -r traces/short2.rep
+  202  make debug
+  203  gdb runner
+  204  make clena
+  205  make clean
+  206  make all
+  207  runner -r traces/short2.rep
+  208  runner -r traces/binary2.rep
+  209  runner -r traces/amptjp.rep
+  210  runner -r traces/binary2_bal
+  211  runner -r traces/binary2_bal.rep
+  212  runner -r traces/binary2-bal.rep
+  213  make clean
+  214  make all
+  215  runner -r traces/short2-bal.rep
+  216  runner -r traces/random.rep
+  217  runner/h
+  218  runner-h
+  219  runner -h
+  220  runner -h -c
+  221  runner -c -r traces/random.rep
+  222  make clean
+  223  make all
+  224  runner -c -r traces/random.rep
+  225  make clean
+  226  make all
+  227  runner -c -r traces/random.rep
+  228  make clean
+  229  make all
+  230  runner -c -r traces/random.rep
+  231  make debug
+  232  gdb runner
+  233  git add .
+  234  git commit -m "i cannot possibly describe what feelings are flooding through my brain right now. as i one-by-one checked every single test case, notably amptjp.rep, i was expecting the usual: a failure of id and correctness. suddenly the glorious words 'umalloc passed correctness check' flooded my terminal. a wave of pure ectasy erupted through my veins as i tested random.rep, a test case that has been haunting me for so long. passed. i kid you not, i screamed at the top of lungs YES and half expected a noise complaint from the roomo over. i began recording myself to mark this place in history forever. while i passed test case after test case, i practically began hyperventilating. if you were wondering, dr. chatterjee, yes, i am a 100% mentally stable individual. i have no idea why i am typing all of this as i am probably about to get the most atrocious utilization score of all time but at least it won't be a 0. signing off. 02/22 23:31"
+  235  git push
+  236  make clean
+  237  make all
+  238  make all
+  239  r -r traces/cp-decl.rep
+  240  r traces/cp-decl.rep
+  241  runner traces/cp-decl.rep
+  242  runner -r traces/cp-decl.rep
+  243  runner -r traces/expr.rep
+  244  runner -r traces/cccp.rep
+  245  git add .
+  246  git commit -m "changing split threshold to potentially increase utilization"
+  247  git push
+  248  make all
+  249  runner -r traces/cp-decl.rep
+  250  git add .
+  251  git commit -m "last attempt didn't do anything so am removing uinit"
+  252  git push
+  253  git add .
+  254  git commit -m "style
+  255  git commit -m "style"
+  256  git push
+  257  git add .
+  258  git commit -m "stupid ass line 331"
+  259  git push
+  260  git add .
+  261  git commit -m "actual format"
+  262  git push
+  263  make all
+  264  runner -r traces/cp-decl-bal.rep 
+  265  make all
+  266  runner -r traces/cp-decl-bal.rep 
+  267  runner -r traces/cp-decl-bal.rep make all
+  268  make all
+  269  make all
+  270  runner -r traces/cp-decl-bal.rep
+  271  make all
+  272  runner -r traces/cp-decl-bal.rep
+  273  make all
+  274  runner -r traces/cp-decl-bal.rep
+  275  make all
+  276  runner -r traces/cp-decl-bal.rep
+  277  make all
+  278  runner -r traces/cp-decl-bal.rep
+  279  make all
+  280  runner -r traces/cp-decl-bal.rep
+  281  make all
+  282  runner -r traces/cp-decl-bal.rep
+  283  make all
+  284  runner -r traces/cp-decl-bal.rep
+  285  make debug
+  286  gdb runner
+  287  make debug
+  288  gdb runner
+  289  make all
+  290  r -r traces/binary.rep
+  291  make runne
+  292  make runner
+  293  runner -r traces/binary.rep
+  294  runner -r traces/binary.rep
+  295  make clean
+  296  make all
+  297  runner -r traces/binary.rep
+  298  runner -r traces/short1.rep
+  299  make clean
+  300  make all
+  301  runner -r traces/short1.rep
+  302  git clone https://github.com/CS429-SP2025/shared-repo-version-c-alex-xie-3.git
+  303  git clone git@github.com:CS429-SP2025/shared-repo-version-c-alex-xie-3.git
+  304  ls
+  305  touch ~/.gdbinit
+  306  cd ..
+  307  ls
+  308  cd shared-repo-version-c-alex-xie-3/
+  309  ls
+  310  cat .gdbinit
+  311  touch .gdbinit
+  312  make all
+  313  make calculator.c
+  314  make main.c
+  315  main -r testcases/basic_add.s 
+  316  make reader.c
+  317  make mini_ci_reference 
+  318  make debug
+  319  gdb main.c
+  320  gdb main.c
+  321  main_ci -r testcases/basic_add.s
+  322  main -r testcases/basic_add.s
+  323  main.c -r testcases/basic_add.s 
+  324  reader.c -r testcases/basic_add.s 
+  325  make main..c
+  326  make mini_ci
+  327  mini_ci testcases/basic_add.s
+  328  gdb main.c
+  329  gdb mini_ci
+  330  mini_ci testcases/multi_op.s
+  331  gdb calculator.c
+  332  gdb main.c
+  333  mini_ci_reference testcases/basic_add.s
+  334  make all
+  335  make mini_ci
+  336  gdb mini_ci
+  337  gdb calculator.c
+  338  gdb reader.c
+  339  gdb calculator.c
+  340  gdb main.c
+  341  touch shell_logs.txt
+  342  touch gdb_logs.txt
+  343  git addd .
+  344  git add .
+  345  git commit -m "first"
+  346  git push
+  347  cd ..
+  348  rm -r shared-repo-version-c-alex-xie-3/
+  349  rm -rf ./shared-repo-version-c-alex-xie-3/
+  350  git clone https://github.com/CS429-SP2025/se-lab-kevin-alex
+  351  ls -a
+  352  ls
+  353  git clone git@github.com:CS429-SP2025/se-lab-kevin-alex.git
+  354  ls
+  355  cd UT_Austin/
+  356  ls
+  357  cd CS-429_Labs/
+  358  ls
+  359  cd ...
+  360  cd ..
+  361  cd..
+  362  cd ..
+  363  cd ..
+  364  ls
+  365  cd axie
+  366  ls
+  367  cd ..
+  368  cd gheith/
+  369  ls
+  370  ls
+  371  cd axie
+  372  ls
+  373  cd ..
+  374  ls
+  375  cd axie
+  376  ls
+  377  mv se-lab-kevin-alex/ UT_Austin/CS-429_Labs/
+  378  ls
+  379  cd ut
+  380  cd UT_Austin/
+  381  cd CS-429_Labs/
+  382  ls
+  383  logout
+  384  make
+  385  make clean
+  386  chmod +x bin/se-ref-wk*
+  387  git pull
+  388  git pull
+  389  git pull
+  390  git pull
+  391  git pull
+  392  git config pull.rebase false
+  393  git pull
+  394  git pull
+  395  git add .
+  396  git commit 'm 
+  397  xit
+  398  git add .
+  399  git commit -m "merge"
+  400  git push
+  401  git pull
+  402  git add .
+  403  git commit -m "comment"
+  404  git push
+  405  git pull
+  406  git pull
+  407  git pull
+  408  git pull
+  409  git stash
+  410  git pull
+  411  git stash
+  412  git pull
+  413  git pull
+  414  git stash
+  415  git pull
+  416  make
+  417  make all
+  418  ./mini_ci testcases/basic_add.s
+  419  make check
+  420  gdb mini_ci
+  421  make debug
+  422  gdb mini_ci
+  423  make clean
+  424  make
+  425  make debug
+  426  gdb mini_ci
+  427  exit bash
+  428  ls -a
+  429  cat ~/.gdbinit
+  430  echo "set history save on"
+  431  echo "set history save on" > ~/.gdbinit
+  432  cat ~/.gdbinit 
+  433  git clone git@github.com:alex-xie-3/mastery-version-a.git
+  434  ls
+  435  bash
+  436  q bash
+  437  make
+  438  gdb mini_ci
+  439  make check
+  440  gdb mini_ci
+  441  make debug -g -DDEBUG
+  442  make debug -h
+  443  make debug -d
+  444  gdb mini_ci
+  445  make check
+  446  gdb mini_ci
+  447  make clean
+  448  make debug
+  449  gdb mini_ci
+  450  make clean
+  451  make
+  452  ./mini_ci testcases/err_ops.s
+  453  ./mini_ci_reference testcases/err_op.s
+  454  ./mini_ci_reference
+  455  ./mini_ci_reference testcases/basic_add.s
+  456  ./mini_ci_reference testcases/err_ops.s
+  457  make check
+  458  make clean
+  459  make check
+  460  gdb mini_ci
+  461  make celan
+  462  make clean
+  463  make debug
+  464  gdb mini_ci
+  465  make clean
+  466  make check
+  467  ./mini_ci_reference testcases/err_ops2.s
+  468  ./mini_ci testcases/err_ops2.s
+  469  make clean
+  470  make
+  471  make check
+  472  make clean
+  473  make debug
+  474  gdb mini_ci
+  475  make clean
+  476  make
+  477  make check
+  478  history
+  479  history > shell_logs.txt
+  480  gdb mini_ci
+  481  make clean
+  482  make debug
+  483  gdb mini_ci
+  484  gdb
+  485  touch gdb_logs.txt
+  486  git add .
+  487  git commit -m 
+  488  git commit -m "done"
+  489  git push
+  490  git clone git@github.com:alex-xie-3/mastery-version-h.git
+  491  ls
+  492  git add .
+  493  git commit -m "some breaks"
+  494  git push
+  495  git add .
+  496  git commit -m 
+  497  git commit -m 
+  498  git commit -m "mostly done with extract_regs"
+  499  git push
+  500  make
+  501  make check
+  502  make comp
+  503  make clean
+  504  make debug
+  505  make clean
+  506  make
+  507  ./a.out -t testcases/short1.rep
+  508  ~/a.out  -t testcases/short1.rep
+  509  bin/a.out  -t testcases/short1.rep
+  510  bin/a.out  -t testcases/short2.rep
+  511  make clean
+  512  make debug
+  513  gdb bin/a.out
+  514  make clean
+  515  make
+  516  make check
+  517  make clean
+  518  make
+  519  make check
+  520  make comp
+  521  history > shell_logs.txt
